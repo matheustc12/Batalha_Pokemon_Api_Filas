@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cabin", sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: #f0f4f8;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 30px;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    padding: 16px 36px;
+    font-size: 1.2rem;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3730a3;
+}
