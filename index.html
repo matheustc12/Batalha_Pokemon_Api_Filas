@@ -2,36 +2,44 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Desafio Pokémon</title>
-    <link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8">
+  <title>Arena de Batalha Pokémon</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
     <h1>Arena de Batalha Pokémon</h1>
-
-    <div class="container">
-        <div class="card">
+  
+    <div class="main">
+      <div class="arena">
+        <div class="container">
+          <div class="card">
             <h2>Chefe</h2>
-        </div>
-        <div class="card">
+            <img id="img-chefe" src="" alt="Imagem Chefe" width="100">
+            <p id="nome-chefe">Nome</p>
+            <p id="tipo-chefe">Tipo</p>
+          </div>
+  
+          <div class="card">
             <h2>Desafiante</h2>
+            <img id="img-desafiante" src="" alt="Imagem Desafiante" width="100">
+            <p id="nome-desafiante">Nome</p>
+            <p id="tipo-desafiante">Tipo</p>
+          </div>
         </div>
+  
+        <div class="text-center">
+          <button id="update-btn">Próximo Desafio Pokémon</button>
+          <p id="resultado"></p>
+        </div>
+      </div>
+  
+      <div id="ranking" class="ranking-box"></div>
     </div>
-
-    <div class="text-center">
-        <button id="update-btn">Próximo Desafio Pokémon</button>
-    </div>
-
-    <div class="resultado">
-        <Div class="container">
-            <p id="resultado"></p>
-        </Div>
-    </div>
-
-    <script src="script.js"></script>
-</body>
+  
+    <audio id="som-ataque" src="atack.wav"></audio>
+    <script src="script.js" defer></script>
+  </body>
+  
 
 </html>
